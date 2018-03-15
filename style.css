@@ -9,7 +9,7 @@ body {
 }
 
 section {
-  position:relative; 
+  position:relative;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ section {
   height:600px;
   background-image:url(fond_flappy.png);
   background: cover;
-  overflow: hidden;
+
 }
 .bird {
   width: 50px;
@@ -31,4 +31,14 @@ section {
   right:0px;
   margin-right:-100px;
 
+}
+
+#randomizer {
+  position:absolute;
+  background-image:url(pipe.png);
+  width:60px;
+  height:451px;
+  top:-250px;
+  right:0px;
+  margin-right:-100px;
 }

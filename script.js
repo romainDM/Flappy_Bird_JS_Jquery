@@ -54,3 +54,9 @@ $(document).keyup(function(touche){ // on écoute l'évènement keyup()
                 bougerDroite();
            }
 });
+
+setInterval(genererobstacle, 5000);
+function genererobstacle(){
+  $("section").append("<div id='randomizer'> </div>");
+$("#randomizer").animate({marginRight:'+=600px'},speed=4000 , easing="linear");
+}
